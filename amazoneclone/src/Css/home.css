@@ -35,6 +35,9 @@
 }
 @media screen and (max-width: 400px) {
   .home-product {
-    margin-top: -80px !important;
+    margin-top: -50px !important;
+  }
+  .carousel-item img {
+    width: 120% !important;
   }
 }

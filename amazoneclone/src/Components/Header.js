@@ -101,7 +101,12 @@ function Header() {
     <>
       <div
         className="hdr"
-        style={{ position: "sticky", top: "0", zIndex: "1", opacity: "0.95" }}
+        style={{
+          position: "sticky",
+          top: "0",
+          zIndex: "1000",
+          opacity: "0.95",
+        }}
       >
         <div className="header">
           <div

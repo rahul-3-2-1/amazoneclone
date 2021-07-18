@@ -1,13 +1,8 @@
-import React, { useState, useEffect } from "react";
-import HomeImg from "../img/home.jpg";
+import React from "react";
+
 import "../Css/home.css";
-import Laptop from "../img/laptop.jpg";
-import Kitchen from "../img/kitchenware.jpg";
-import Phone from "../img/phone.jpg";
-import Mask from "../img/mask.jpg";
-import Clothes from "../img/clothes.jpg";
+
 import Product from "./Product";
-import Television from "../img/television.PNG";
 
 function Home() {
   return (

@@ -61,7 +61,7 @@ export default function Checkout() {
                 alt="discout_img"
               />
             </div>
-            <div className="px-4 guest">
+            <div style={{ paddingLeft: "8px" }} className=" guest">
               <p className="fs-4">hello, {!user ? "Guest" : user}</p>
               <p
                 style={{ fontWeight: "500px" }}

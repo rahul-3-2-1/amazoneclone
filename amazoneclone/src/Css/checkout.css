@@ -193,6 +193,9 @@
   .rmbtn {
     font-size: 0.7rem;
   }
+  .guest p {
+    padding-left: -10px !important;
+  }
   .checkout_info img {
     max-width: 95%;
   }
