@@ -12,6 +12,7 @@ app.use(cors());
 
 app.use(require("./route/userinfo"));
 app.use(require("./route/userorder"));
+const PORT = process.env.PORT || 8000;
 
 app.post("/payment", middleware, async (req, res) => {
   try {
@@ -41,6 +42,16 @@ app.post("/payment", middleware, async (req, res) => {
     res.json({ error: err });
   }
 });
-app.listen(8000, () => {
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+  const path = require("path");
+  app.get("*", (req, res) => {
+    res.sendFile(
+      path.resolve(__dirname, "amazoneclone", "build", "index.html")
+    );
+  });
+}
+app.listen(PORT, () => {
   console.log("connection establish");
 });
