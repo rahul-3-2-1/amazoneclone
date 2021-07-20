@@ -193,9 +193,7 @@
   .rmbtn {
     font-size: 0.7rem;
   }
-  .guest p {
-    padding-left: -3px !important;
-  }
+
   .checkout_info img {
     max-width: 95%;
   }
@@ -214,7 +212,7 @@
     margin: 3px;
   }
   .basket_right {
-    padding: 5px 17px;
+    padding: 5px 0px !important;
     padding-bottom: 0px;
   }
   .basket_right button {

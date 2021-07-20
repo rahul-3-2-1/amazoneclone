@@ -53,6 +53,7 @@ router.post("/register", async (req, res) => {
 router.post("/signin", async (req, res) => {
   try {
     console.log("rahul");
+
     const { email, password } = req.body;
     const data = await User.findOne({ email });
     console.log(data);

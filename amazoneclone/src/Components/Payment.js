@@ -94,6 +94,9 @@ export default function Payment() {
 
           return;
         }
+        for (let i = 0; i < myState.length; i++) {
+          dispatch(Delete(i));
+        }
         const res = await response.json();
         console.log(response);
         toast.success("Payment Successfull", {
