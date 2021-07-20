@@ -13,7 +13,7 @@ function Orders() {
       const res = await data.json();
       console.log(res);
       setSize(res.length);
-      setOrder(res);
+      setOrder(res.reverse());
     } catch (err) {
       console.log(err);
     }

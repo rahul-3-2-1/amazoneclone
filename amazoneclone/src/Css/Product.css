@@ -124,13 +124,16 @@ body {
   .home_animation3,
   .home_animation4,
   .home_animation6 {
-    width: 50% !important;
+    width: 100% !important;
   }
   .home_animation5 {
     width: 100% !important;
   }
-  .img-container img {
-    width: 100% !important;
+  .img-container div {
+    width: 30% !important;
+  }
+  .product_info {
+    margin-top: 0px !important;
   }
 }
 @media screen and (max-width: 600px) {

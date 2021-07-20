@@ -194,7 +194,7 @@
     font-size: 0.7rem;
   }
   .guest p {
-    padding-left: -10px !important;
+    padding-left: -3px !important;
   }
   .checkout_info img {
     max-width: 95%;
@@ -218,7 +218,7 @@
     padding-bottom: 0px;
   }
   .basket_right button {
-    font-size: 0.7rem !important;
+    font-size: 0.6rem !important;
   }
   .guest p {
     font-size: 0.73rem !important;
