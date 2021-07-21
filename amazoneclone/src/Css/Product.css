@@ -130,7 +130,10 @@ body {
     width: 100% !important;
   }
   .img-container div {
-    width: 30% !important;
+    width: 30%;
+  }
+  .home_animation5 .img-container div {
+    width: 70%;
   }
   .product_info {
     margin-top: 0px !important;

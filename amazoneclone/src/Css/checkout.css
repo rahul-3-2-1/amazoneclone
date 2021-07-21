@@ -63,8 +63,9 @@
 }
 .pay {
   margin: 10px 0;
-  position: relative;
+  /* position: relative; */
   min-height: 30px;
+  text-align: center;
 }
 .pay button {
   display: inline-block;
@@ -76,9 +77,9 @@
 
 .addtobaskets button {
   border: none;
-  position: absolute;
+  /* position: absolute; */
   left: 50%;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
   bottom: 1px;
   background-color: rgb(209, 143, 68);
 }
