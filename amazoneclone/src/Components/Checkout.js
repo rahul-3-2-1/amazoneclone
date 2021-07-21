@@ -65,7 +65,7 @@ export default function Checkout() {
               <p className="fs-4">hello, {!user ? "Guest" : user}</p>
               <p
                 style={{ fontWeight: "500px" }}
-                className="fs-3 mx-1 shoppingbasket"
+                className="fs-3 mx-2 shoppingbasket"
               >
                 Your shopping basket
               </p>
@@ -116,7 +116,7 @@ export default function Checkout() {
                       <div style={{ flex: "0.75" }} className="product_details">
                         <h5>{item.title}</h5>
                         <p className="prodect_price">
-                          <small>$</small>
+                          <small>₹ </small>
                           <strong>{item.price}</strong>
                         </p>
                         <div className="product_rating">
